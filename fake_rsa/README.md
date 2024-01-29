@@ -5,13 +5,15 @@
     loosely described in Tanebaum's "Computer Networks" at page 795.
 
 ## What the book says:
-1)      *CHOOSE* two large prime numbers, **p** and **q** (usually 1024 bits)
-2)      *FIND* **n = p x q** and **z = (p-1) x (q-1)**
-3)      *CHOOSE* a number "relatively prime" to *z*, that we will call **d**
-4)      *FIND* the value of *e* such that **e x d = 1%z**
+1) *CHOOSE* two large prime numbers, **p** and **q** (usually 1024 bits)
+2) *FIND* **n = p x q** and **z = (p-1) x (q-1)**
+3) *CHOOSE* a number "relatively prime" to *z*, that we will call **d**
+4) *FIND* the value of *e* such that **e x d = 1%z**
 
 ## How I want to implement it?
-
+### Current: v0.01
+            No actual functionalities are working now.
+            - Maybe I'm missing something about the block size
 ### Up to v1.0
             In the first versions of this project, I'll just use a text file containing a bunch of 1024-bit long prime numbers
             use it to encrypt a message, save it on a file, and decrypt it.
